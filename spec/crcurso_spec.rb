@@ -2,7 +2,7 @@ require 'crcurso'
 require 'curso'
 
 RSpec.describe CrCurso do
-  describe '.calcular_cr_curso' do
+  describe '#calcular_cr_curso' do
     let(:arquivo) { 'lib/notas.csv' }
 
     it 'retorna um array de objetos Curso' do

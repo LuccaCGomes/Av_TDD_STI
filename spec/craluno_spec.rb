@@ -3,7 +3,7 @@ require 'craluno'
 require 'aluno'
 
 RSpec.describe CrAluno do
-  describe '.calcular_cr_aluno' do
+  describe '#calcular_cr_aluno' do
     let(:arquivo) { 'lib/notas.csv' }
 
     it 'retorna um array de objetos Aluno' do

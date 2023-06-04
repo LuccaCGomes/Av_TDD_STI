@@ -32,7 +32,7 @@ RSpec.describe Aluno do
       aluno = Aluno.new(100)
       aluno.adicionar_notas_agp(80)
       aluno.adicionar_ch(60)
-      expect(aluno.cr).to eq(80.0) # O CR será recalculado após adicionar a carga horária
+      expect(aluno.cr).to eq(80.0)
     end
   end
 end
